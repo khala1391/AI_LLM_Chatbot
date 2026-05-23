@@ -1,0 +1,35 @@
+# ===== Ignored =====
+.env
+.venv/
+notebook/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.claude/
+archive/
+image/
+temp/
+*.md
+
+# ===== Screenshots / verify artifacts =====
+*.png
+*.jpg.bak
+
+# ===== Generated artifacts =====
+model/*
+!model/model.pkl
+!model/columns.json
+!model/eval_data.pkl
+
+# ===== Large files (>50MB) =====
+
+
+# ===== Tracked (intentionally NOT ignored) =====
+# assets/           -> tracked (profile image, static files)
+# .streamlit/       -> tracked (theme config)
+# dataset/          -> tracked
+# *.pbix            -> tracked
+!/README.md
+!assets/*.jpg
+!assets/*.png
