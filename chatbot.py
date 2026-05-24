@@ -18,7 +18,7 @@ st.markdown(
 
   /* ── Profile badge — bottom right ── */
   #profile-badge {
-    position: fixed; bottom: 3.5rem; right: 1rem;
+    position: fixed; top: 3.5rem; right: 1rem;
     z-index: 2147483647;
     display: flex; align-items: center; gap: 0.45rem;
     pointer-events: auto;
